@@ -1,6 +1,12 @@
 # Minimal graphviz microservice
 
-Based on Alpine Linux 3.4, Python 3 and the hug framework.
+Based on Alpine Linux 3.4, Python 3 and the hug framework. Exposes a simple REST API for generating Graphviz visualizations from DOT files.
+
+## Running
+
+```bash
+docker run -d -p 8000:8000 --name graphviz sseemayer/graphviz
+```
 
 ## Usage
 
