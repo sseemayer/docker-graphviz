@@ -10,13 +10,16 @@ docker run -d -p 8000:8000 --name graphviz sseemayer/graphviz
 
 ## Usage
 
+From the command line:
 ```bash
 $ curl myhost.tld/viz.svg -F dot=@/path/to/a/dotfile.dot
 ```
 
+In a web page:
+
 ```html
-<img src="myhost.tld/viz.svg?dot=urlencoded-dot-data>"
-<img src="myhost.tld/viz.png?dot=urlencoded-dot-data>"
+<img src="myhost.tld/viz.svg?dot=urlencoded-dot-data">
+<img src="myhost.tld/viz.png?dot=urlencoded-dot-data">
 ```
 
 ## License
