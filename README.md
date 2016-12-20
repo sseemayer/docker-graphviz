@@ -18,3 +18,9 @@ $ curl myhost.tld/viz.svg -F dot=@/path/to/a/dotfile.dot
 <img src="myhost.tld/viz.svg?dot=urlencoded-dot-data>"
 <img src="myhost.tld/viz.png?dot=urlencoded-dot-data>"
 ```
+
+## License
+Graphviz is under the Eclipse Public License v1.0
+
+This docker image is released under the MIT license.
+See LICENSE for details.
